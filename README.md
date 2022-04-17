@@ -5,9 +5,9 @@
 
 # Projects
 
-| No | Code | Demo |
+| No | Project | Demo |
 | --- | --- | --- |
-| 1 | Javascript Drum Kit | Link
+| 1 | Javascript Drum Kit | [Link](https://fl4wn.github.io/Javascript30/01%20-%20JavaScript%20Drum%20Kit/)
 | 2 | JS and CSS Clock | Link
 | 3 | CSS Variables | Link
 | 4 | Array Cardio Day 1 | Link
