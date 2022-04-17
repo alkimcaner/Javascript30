@@ -6,4 +6,40 @@
 
 body {
     background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.drumkit {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    color: white;
+    font-size: 24px;
+    transition: all 0.1s;
+}
+
+.key.active {
+    transform: scale(1.1);
+    transform: translateY(-10px);
+    border-color: blue;
+}
+
+.github {
+    position: fixed;
+    bottom: 10px;
 }
