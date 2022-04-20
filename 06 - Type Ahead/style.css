@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    height: 100vh;
+}
+
+.search {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search input {
+    width: 14rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 22px;
+    padding: 0.5rem;
+}
+
+.results {
+    color: white;
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 20px;
+}
+
+.results li {
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.github {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+}
