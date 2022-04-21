@@ -8,14 +8,14 @@
 | No | Project | Demo |
 | --- | --- | --- |
 | 1 | Javascript Drum Kit | [Link](https://fl4wn.github.io/Javascript30/01%20-%20JavaScript%20Drum%20Kit/)
-| 2 | JS and CSS Clock | Link
-| 3 | CSS Variables | Link
-| 4 | Array Cardio Day 1 | Link
-| 5 | Flex Panel Gallery | Link
-| 6 | Type Ahead | Link
-| 7 | Array Cardio Day 2 | Link
-| 8 | Fun with HTML5 Canvas | Link
-| 9 | Dev Tools Domination | Link
+| 2 | JS and CSS Clock | [Link](https://fl4wn.github.io/Javascript30/02%20-%20JS%20and%20CSS%20Clock/)
+| 3 | CSS Variables | [Link](https://fl4wn.github.io/Javascript30/03%20-%20CSS%20Variables/)
+| 4 | Array Cardio Day 1 | [Link](https://fl4wn.github.io/Javascript30/04%20-%20Array%20Cardio%20Day%201/)
+| 5 | Flex Panel Gallery | [Link](https://fl4wn.github.io/Javascript30/05%20-%20Flex%20Panel%20Gallery/)
+| 6 | Type Ahead | [Link](https://fl4wn.github.io/Javascript30/06%20-%20Type%20Ahead/)
+| 7 | Array Cardio Day 2 | [Link](https://fl4wn.github.io/Javascript30/07%20-%20Array%20Cardio%20Day%202/)
+| 8 | Fun with HTML5 Canvas | [Link](https://fl4wn.github.io/Javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
+| 9 | Dev Tools Domination | [Link](https://fl4wn.github.io/Javascript30/09%20-%20Dev%20Tools%20Domination/)
 | 10 | Hold Shift and Check Checkboxes | Link
 | 11 | Custom Video Player | Link
 | 12 | Key Sequence Detection | Link
