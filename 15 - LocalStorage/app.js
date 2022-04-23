@@ -1,15 +1,22 @@
 const list = document.querySelector(".plates");
 const form = document.querySelector(".add-items");
+const checkButton = document.querySelector("#check");
+const uncheckButton = document.querySelector("#uncheck");
+const clearButton = document.querySelector("#clear");
 
-const storage = window.localStorage.getItem("items") || "[]";
-const items = JSON.parse(storage);
+const storage = window.localStorage.getItem("items");
+const items = JSON.parse(storage) || [];
 
 function updateStorage(data) {
   window.localStorage.setItem("items", JSON.stringify(data));
 }
 
 function displayItems() {
-  items.forEach((e) => {
+  //Clear list
+  list.innerHTML = "";
+
+  //Draw elements
+  items.forEach((e, index) => {
     //Create li element
     const listItem = document.createElement("li");
     list.appendChild(listItem);
@@ -17,7 +24,7 @@ function displayItems() {
     //Create checkbox element
     const itemCheck = document.createElement("input");
     itemCheck.setAttribute("type", "checkbox");
-    itemCheck.id = items.indexOf(e);
+    itemCheck.id = index;
 
     itemCheck.addEventListener("click", toggleCheck);
 
@@ -51,6 +58,32 @@ function toggleCheck() {
   itemObject.isChecked = !itemObject.isChecked;
   updateStorage(items);
 }
+
+function checkAll() {
+  items.forEach((e) => {
+    e.isChecked = true;
+  });
+  updateStorage(items);
+  displayItems();
+}
+
+function uncheckAll() {
+  items.forEach((e) => {
+    e.isChecked = false;
+  });
+  updateStorage(items);
+  displayItems();
+}
+
+function clearAll() {
+  items.splice(0);
+  updateStorage(items);
+  displayItems();
+}
+
+checkButton.addEventListener("click", checkAll);
+uncheckButton.addEventListener("click", uncheckAll);
+clearButton.addEventListener("click", clearAll);
 
 form.addEventListener("submit", addItem);
 displayItems();
