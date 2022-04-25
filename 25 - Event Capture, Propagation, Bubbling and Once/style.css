@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div {
+  width: 100%;
+  padding: 100px;
+}
+
+.one {
+  background: thistle;
+}
+
+.two {
+  background: mistyrose;
+}
+
+.three {
+  background: coral;
+}
+
+.github {
+  position: fixed;
+  width: auto;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(2px);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.github:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.github a {
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  text-decoration: none;
+  text-align: center;
+}
